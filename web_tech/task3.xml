@@ -1,0 +1,41 @@
+<table>
+<line sr="1">
+<first_name>Jhon</first_name>
+<last_name>Doe</last_name>
+<address>
+<flat_no></flat_no>
+<house_no>38</house_no>
+<road_no>3</road_no>
+<area>Banani</area>
+<district>Dhaka</district>
+</address>
+<department>Sales</department>
+<salary>$20,000</salary>
+</line>
+<line sr="2">
+<first_name>Mark</first_name>
+<last_name>Zukerburg</last_name>
+<address>
+<flat_no>A/1</flat_no>
+<house_no>20</house_no>
+<road_no>18</road_no>
+<area>Mirpur</area>
+<district>Dhaka</district>
+</address>
+<department>Accounts</department>
+<Salary>$12,000</Salary>
+</line>
+<line sr="3">
+<first_name>Ala </first_name>
+<last_name>Voski</last_name>
+<address>
+<falte_no></falte_no>
+<house_no>38</house_no>
+<road_no>13</road_no>
+<area>Mtijheel</area>
+<discrict></discrict>
+</address>
+<department>Human Resource</department>
+<Salary>$30,000</Salary>
+</line>
+</table>
