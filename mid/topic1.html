@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+    <title>Email Registration</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 20px;
+      }
+
+      .container {
+        width: 400px;
+        margin: 0 auto;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 20px;
+      }
+
+      h1 {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      label {
+        display: block;
+        margin-bottom: 5px;
+      }
+
+      input[type="text"],
+      input[type="password"],
+      select {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        margin-bottom: 15px;
+      }
+
+      .radio-group {
+        margin-bottom: 15px;
+      }
+
+      .radio-group label {
+        display: inline-block;
+        margin-right: 10px;
+      }
+
+      .button {
+        
+        border: none;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Email Registration</h1>
+      <form action="#">
+        <label for="firstName">First Name:</label>
+        <input
+          type="text"
+          id="first Name"
+          name="first Name"
+          placeholder="Enter your first name"
+          required
+        />
+
+        <label for="lastName">Last Name:</label>
+        <input
+          type="text"
+          id="last Name"
+          name="last Name"
+          placeholder="Enter your last name"
+          required
+        />
+
+        <label for="dob">Date of Birth:</label>
+        <select id="dob" name="dob" required>
+          <option value="">Select Date of Birth</option>
+        </select>
+
+        <label>Gender:</label>
+        <div class="radio-group">
+          <label for="genderMale">Male</label>
+          <input
+            type="radio"
+            id="genderMale"
+            name="gender"
+            value="male"
+            required
+          />
+
+          <label for="genderFemale">Female</label>
+          <input
+            type="radio"
+            id="genderFemale"
+            name="gender"
+            value="female"
+            required
+          />
+        </div>
+
+        <label for="phone">Phone Number:</label>
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          placeholder="Enter phone number (optional)"
+        />
+
+        <label for="email">Email ID:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your desired email address"
+          required
+        />
+
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          minlength="6"
+          required
+        />
+        <label for="confirmPassword">Confirm Password:</label>
+        <input
+          type="password"
+          id="confirmPassword"
+          name="confirmPassword"
+          minlength="6"
+          required
+        />
+
+        <button type="submit">Create Account</button>
+      </form>
+    </div>
+  </body>
+</html>
