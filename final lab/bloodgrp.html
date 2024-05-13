@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blood Group</title>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <form action="">
+      Blood Group
+      <select name="bloodGroup" id="bloodGroup">
+        <option value="">-</option>
+        <option value="a+">A+</option>
+        <option value="a-">A-</option>
+        <option value="b+">B+</option>
+        <option value="ab+">AB+</option>
+        <option value="ab-">AB-</option>
+        <option value="o+">O+</option>
+        <option value="o-">O-</option>
+      </select>
+
+      <br /><br /><input
+        type="button"
+        value="Submit"
+        onclick="bloodGroupCheck()"
+      />
+    </form>
+    <h1 id="validation"></h1>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Degree</title>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <form action="">
+      <fieldset>
+        <legend>Degree</legend>
+        <input type="checkbox" name="degree[]" id="degree" value="ssc" />SSC
+        <input type="checkbox" name="degree[]" id="degree" value="hsc" />HSC
+        <input type="checkbox" name="degree[]" id="degree" value="bsc" />BSc
+        <br />
+        <br />
+        <input type="button" value="Submit" onclick="degreeCheck()" />
+      </fieldset>
+    </form>
+    <h1 id="validation"></h1>
+  </body>
+</html>
